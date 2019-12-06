@@ -139,9 +139,9 @@ class BarcodeSearch():
         answer_arr[:,8] /=  answer_arr[:,6]
                         
         table = pd.DataFrame(answer_arr, 
-                             columns=['birth', 'death', 'birth_swallowed_cluster',
-                                      'id_dead_min', 'id_saddle', 'id_swallowed_min', 'dead_cluster_size',
-                                      'swallowed_cluster_size', 'mean_height_cluster'], dtype=object)
+                             columns=['birth', 'death', 'birth_swallowing_cluster',
+                                      'id_dead_min', 'id_saddle', 'id_swallowing_min', 'dead_cluster_size',
+                                      'swallowing_cluster_size', 'mean_height_cluster'], dtype=object)
         if FindWays:
             searcher = PathSearcher(tree)
             searcher.Initialize()
