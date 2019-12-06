@@ -2,7 +2,7 @@
 
 Small package for calculating zero persistent homology of sublevel set filtration of a function. 
 It is based on the algorithm from article 
-<a href="https://arxiv.org/search/?query=Dmitry+Oganesyan&searchtype=all&source=header">Barcodes as summary of objective function's topology</a>.
+<a href="https://arxiv.org/abs/1912.00043">Barcodes as summary of objective function's topology</a>.
 
 The algorithm works with function’s values on a randomly sampled or specifically chosen set of points. 
 The local minima give birth to clusters of points in sublevel sets.
